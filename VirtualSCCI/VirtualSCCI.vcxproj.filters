@@ -182,9 +182,6 @@
     <ClCompile Include="..\fmgen\fmtimer.cpp">
       <Filter>fmgen</Filter>
     </ClCompile>
-    <ClCompile Include="..\fmgen\main.cpp">
-      <Filter>fmgen</Filter>
-    </ClCompile>
     <ClCompile Include="..\fmgen\opm.cpp">
       <Filter>fmgen</Filter>
     </ClCompile>
