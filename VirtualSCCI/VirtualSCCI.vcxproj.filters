@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="fmopl">
+      <UniqueIdentifier>{d126e577-d8e9-4ca2-b9e7-c5d1a514d9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmgen">
+      <UniqueIdentifier>{77048b24-4c78-49b1-8a77-d7830faba0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libemu">
+      <UniqueIdentifier>{8586ef0e-4792-4fea-a9ab-aea2e8f3b0c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="..\fmgen\ReadMe.txt">
+      <Filter>fmgen</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSCCI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\281btone.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\2413tone.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\dbgout.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\emu2212.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\emu2413.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\emu76489.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\emutypes.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\vrc7tone.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\driver.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\fm.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\fmopl.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\ymdeltat.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\ymf262.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\diag.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\fmgen.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\fmgeninl.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\fmtimer.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\headers.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\inline.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\libfmgen.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\misc.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\opm.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\opna.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\psg.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\resource.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\stdafx.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\targetver.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmgen\types.h">
+      <Filter>fmgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\stdafx.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libemu\targetver.h">
+      <Filter>libemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\stdafx.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmopl\targetver.h">
+      <Filter>fmopl</Filter>
+    </ClInclude>
+    <ClInclude Include="scci.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SCCIDefines.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="VOPM.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="vSoundChip.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSCCI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libemu\emu2212.c">
+      <Filter>libemu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libemu\emu2413.c">
+      <Filter>libemu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libemu\emu76489.c">
+      <Filter>libemu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmopl\fmopl.c">
+      <Filter>fmopl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmopl\ymdeltat.c">
+      <Filter>fmopl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmopl\ymf262.c">
+      <Filter>fmopl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmgen\fmgen.cpp">
+      <Filter>fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmgen\fmtimer.cpp">
+      <Filter>fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmgen\main.cpp">
+      <Filter>fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmgen\opm.cpp">
+      <Filter>fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmgen\opna.cpp">
+      <Filter>fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmgen\psg.cpp">
+      <Filter>fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="VOPM.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="vSoundChip.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\libemu\2413tone.ill">
+      <Filter>libemu</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\fmgen\app.rc">
+      <Filter>fmgen</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
